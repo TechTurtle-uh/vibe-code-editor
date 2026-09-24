@@ -1,43 +1,46 @@
-# 🚗 Quick Transport
+# 🧠 Vibecode Editor – AI-Powered Web IDE
 
-Quick Transport is a modern web-based transportation application designed to provide users with a simple and convenient way to manage transportation and ride-related services.
+![Vibecode Editor Thumbnail](public/vibe-code-editor-thumbnaail.svg)
 
-## ✨ Features
+**Vibecode Editor** is a blazing-fast, AI-integrated web IDE built entirely in the browser using **Next.js App Router**, **WebContainers**, **Monaco Editor**, and **local LLMs via Ollama**. It offers real-time code execution, an AI-powered chat assistant, and support for multiple tech stacks — all wrapped in a stunning developer-first UI.
 
-- 🔐 User authentication and authorization
-- 👤 User registration and login
-- 🚗 Transportation and ride management
-- 📱 Responsive user interface
-- 🗺️ Route and transportation-related functionality
-- 🗄️ Database integration
-- ⚡ Fast and modern web interface
-- 🔒 Environment-based configuration
+---
 
-## 🛠️ Tech Stack
+## 🚀 Features
 
-- **Frontend:** React / Next.js
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Backend:** Next.js
-- **Database:** MongoDB
-- **ORM:** Prisma
-- **Authentication:** NextAuth
-- **Package Manager:** npm
+- 🔐 **OAuth Login with NextAuth** – Supports Google & GitHub login.
+- 🎨 **Modern UI** – Built with TailwindCSS & ShadCN UI.
+- 🌗 **Dark/Light Mode** – Seamlessly toggle between themes.
+- 🧱 **Project Templates** – Choose from React, Next.js, Express, Hono, Vue, or Angular.
+- 🗂️ **Custom File Explorer** – Create, rename, delete, and manage files/folders easily.
+- 🖊️ **Enhanced Monaco Editor** – Syntax highlighting, formatting, keybindings, and AI autocomplete.
+- 💡 **AI Suggestions with Ollama** – Local models give you code completion on `Ctrl + Space` or double `Enter`. Accept with `Tab`.
+- ⚙️ **WebContainers Integration** – Instantly run frontend/backend apps right in the browser.
+- 💻 **Terminal with xterm.js** – Fully interactive embedded terminal experience.
+- 🤖 **AI Chat Assistant** – Share files with the AI and get help, refactors, or explanations.
 
-## 📂 Project Structure
+---
 
-```text
-quick-transport/
-├── app/
-├── components/
-├── hooks/
-├── lib/
-├── modules/
-├── prisma/
-├── public/
-├── auth.ts
-├── auth.config.ts
-├── middleware.ts
-├── package.json
-├── package-lock.json
-└── README.md
+## 🧱 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 15 (App Router) |
+| Styling | TailwindCSS, ShadCN UI |
+| Language | TypeScript |
+| Auth | NextAuth (Google + GitHub OAuth) |
+| Editor | Monaco Editor |
+| AI Suggestion | Ollama (LLMs running locally via Docker) |
+| Runtime | WebContainers |
+| Terminal | xterm.js |
+| Database | MongoDB (via DATABASE_URL) |
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/vibecode-editor.git
+cd vibecode-editor
